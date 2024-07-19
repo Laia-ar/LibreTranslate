@@ -1,0 +1,7 @@
+Instalando en un server
+-----------------------
+
+* Seguir los pasos de instalacion que figuran en docker/Dockerfile
+* Copiar trans.service en /etc/systemd/system/trans.service
+* Verificar que se inicia en boot con: systemctl daemon-reload 
+
